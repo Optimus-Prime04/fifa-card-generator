@@ -1,0 +1,523 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #111;
+
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* ========================= */
+/* MAIN CONTAINER */
+/* ========================= */
+
+.main-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20mm;
+
+    min-height: 100vh;
+
+    flex-wrap: wrap;
+
+    padding: 10mm;
+}
+
+
+
+/* ========================= */
+/* INPUT SECTION */
+/* ========================= */
+
+.input-section {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4mm;
+
+    width: 80mm;
+}
+
+
+.input-section h1 {
+
+    color: gold;
+
+    text-align: center;
+
+    font-size: 10mm;
+}
+
+
+.input-section input,
+.input-section select,
+.input-section button {
+
+    padding: 4mm;
+
+    border: none;
+
+    border-radius: 3mm;
+
+    font-size: 4mm;
+}
+
+
+.input-section button {
+
+    background-color: gold;
+
+    color: black;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.input-section button:hover {
+
+    transform: scale(1.03);
+}
+
+
+
+/* ========================= */
+/* CARD SECTION */
+/* ========================= */
+
+.preview-section {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+
+/* ========================= */
+/* CARD */
+/* ========================= */
+
+.card {
+
+    position: relative;
+
+    width: 110mm;
+}
+
+
+
+/* ========================= */
+/* CARD BACKGROUND */
+/* ========================= */
+
+.card-bg {
+
+    width: 100%;
+
+    display: block;
+}
+
+
+
+/* ========================= */
+/* GOLD CARD */
+/* ========================= */
+
+.gold-card .rating {
+
+    position: absolute;
+
+    top: 20mm;
+    left: 12mm;
+
+    font-size: 18mm;
+
+    font-weight: bold;
+
+    color: black;
+
+    z-index: 5;
+}
+
+
+
+.gold-card .position {
+
+    position: absolute;
+
+    top: 40mm;
+    left: 12mm;
+
+    font-size: 8mm;
+
+    font-weight: bold;
+
+    color: black;
+
+    z-index: 5;
+}
+
+
+
+.gold-card .player-image {
+
+    position: absolute;
+
+    top: 24mm;
+    left: 32mm;
+
+    width: 50mm;
+    height: 60mm;
+
+    object-fit: cover;
+
+    border-radius: 4mm;
+
+    z-index: 2;
+}
+
+
+
+.gold-card .player-name {
+
+    position: absolute;
+
+    bottom: 52mm;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    font-size: 8mm;
+
+    font-weight: bold;
+
+    color: black;
+
+    z-index: 5;
+}
+
+
+
+.gold-card .stats {
+
+    position: absolute;
+
+    bottom: 20mm;
+
+    left: 48%;
+
+    transform: translateX(-56%);
+
+    display: flex;
+
+    gap: 38mm;
+
+    z-index: 5;
+}
+
+
+
+.gold-card .stats-column {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5mm;
+}
+
+
+
+.gold-card .stats-column div {
+
+    font-size: 5.5mm;
+
+    font-weight: bold;
+
+    color: black;
+}
+
+
+
+/* ========================= */
+/* ICON CARD */
+/* ========================= */
+
+.icon-card .rating {
+
+    position: absolute;
+
+    top: 23mm;
+    left: 15mm;
+
+    font-size: 12mm;
+
+    font-weight: bold;
+
+    color: black;
+
+    z-index: 5;
+}
+
+
+
+.icon-card .position {
+
+    position: absolute;
+
+    top: 39mm;
+    left: 18mm;
+
+    font-size: 7mm;
+
+    font-weight: bold;
+
+    color: black;
+
+    z-index: 5;
+}
+
+
+
+.icon-card .player-image {
+
+    position: absolute;
+
+    top: 22mm;
+    left: 32mm;
+
+    width: 50mm;
+    height: 58mm;
+
+    object-fit: cover;
+
+    border-radius: 4mm;
+
+    z-index: 2;
+}
+
+
+
+.icon-card .player-name {
+
+    position: absolute;
+
+    bottom: 59mm;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    font-size: 7.5mm;
+
+    font-weight: bold;
+
+    color: black;
+
+    z-index: 5;
+}
+
+
+
+.icon-card .stats {
+
+    position: absolute;
+
+    bottom: 30mm;
+
+    left: 49%;
+
+    transform: translateX(-56%);
+
+    display: flex;
+
+    gap: 36mm;
+
+    z-index: 5;
+}
+
+
+
+.icon-card .stats-column {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4mm;
+}
+
+
+
+.icon-card .stats-column div {
+
+    font-size: 5mm;
+
+    font-weight: bold;
+
+    color: black;
+}
+
+
+
+/* ========================= */
+/* UCL CARD */
+/* ========================= */
+
+.ucl-card .rating {
+
+    position: absolute;
+
+    top: 18mm;
+    left: 12mm;
+
+    font-size: 15mm;
+
+    font-weight: bold;
+
+    color: white;
+
+    z-index: 5;
+}
+
+
+
+.ucl-card .position {
+
+    position: absolute;
+
+    top: 38mm;
+    left: 14mm;
+
+    font-size: 7mm;
+
+    font-weight: bold;
+
+    color: white;
+
+    z-index: 5;
+}
+
+
+
+.ucl-card .player-image {
+
+    position: absolute;
+
+    top: 22mm;
+    left: 30mm;
+
+    width: 50mm;
+    height: 58mm;
+
+    object-fit: cover;
+
+    border-radius: 4mm;
+
+    z-index: 2;
+}
+
+
+
+.ucl-card .player-name {
+
+    position: absolute;
+
+    bottom: 55mm;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    font-size: 7.5mm;
+
+    font-weight: bold;
+
+    color: white;
+
+    z-index: 5;
+}
+
+
+
+.ucl-card .stats {
+
+    position: absolute;
+
+    bottom: 28mm;
+
+    left: 48%;
+
+    transform: translateX(-56%);
+
+    display: flex;
+
+    gap: 36mm;
+
+    z-index: 5;
+}
+
+
+
+.ucl-card .stats-column {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4mm;
+}
+
+
+
+.ucl-card .stats-column div {
+
+    font-size: 5mm;
+
+    font-weight: bold;
+
+    color: white;
+}
+
+
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media(max-width: 768px) {
+
+    .main-container {
+
+        flex-direction: column;
+
+        gap: 10mm;
+    }
+
+    .card {
+
+        width: 85mm;
+    }
+
+    .input-section {
+
+        width: 90%;
+    }
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>FIFA Card Generator</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="main-container">
+
+
+        <!-- INPUT SECTION -->
+
+        <div class="input-section">
+
+            <h1>FIFA Card Generator</h1>
+
+
+            <input type="text"
+                   id="playerName"
+                   placeholder="Player Name">
+
+
+            <input type="number"
+                   id="playerRating"
+                   placeholder="OVR">
+
+
+            <input type="text"
+                   id="playerPosition"
+                   placeholder="Position">
+
+
+            <input type="number"
+                   id="pace"
+                   placeholder="PAC">
+
+
+            <input type="number"
+                   id="shooting"
+                   placeholder="SHO">
+
+
+            <input type="number"
+                   id="passing"
+                   placeholder="PAS">
+
+
+            <input type="number"
+                   id="dribbling"
+                   placeholder="DRI">
+
+
+            <input type="number"
+                   id="defense"
+                   placeholder="DEF">
+
+
+            <input type="number"
+                   id="physical"
+                   placeholder="PHY">
+
+
+            <select id="cardType">
+
+                <option value="gold">
+                    Gold
+                </option>
+
+                <option value="icon">
+                    Icon
+                </option>
+
+                <option value="ucl">
+                    UCL
+                </option>
+
+            </select>
+
+
+            <input type="file"
+                   id="imageInput">
+
+
+            <!-- GENERATE BUTTON -->
+
+            <button onclick="generateCard()">
+
+                Generate Card
+
+            </button>
+
+
+            <!-- DOWNLOAD BUTTON -->
+
+            <button onclick="downloadCard()">
+
+                Download Card
+
+            </button>
+
+
+        </div>
+
+
+
+        <!-- CARD PREVIEW -->
+
+        <div class="preview-section">
+
+
+            <div class="card gold-card"
+                 id="card">
+
+
+                <!-- CARD BACKGROUND -->
+
+                <img src="assets/gold.png"
+                     class="card-bg"
+                     id="cardBackground">
+
+
+
+                <!-- RATING -->
+
+                <div class="rating"
+                     id="cardRating">
+
+                     99
+
+                </div>
+
+
+
+                <!-- POSITION -->
+
+                <div class="position"
+                     id="cardPosition">
+
+                     ST
+
+                </div>
+
+
+
+                <!-- PLAYER IMAGE -->
+
+                <img src=""
+                     class="player-image"
+                     id="playerImage">
+
+
+
+                <!-- PLAYER NAME -->
+
+                <div class="player-name"
+                     id="cardName">
+
+                     PLAYER
+
+                </div>
+
+
+
+                <!-- STATS -->
+
+                <div class="stats">
+
+
+                    <!-- LEFT COLUMN -->
+
+                    <div class="stats-column">
+
+                        <div>
+
+                            <span id="cardPace">99</span>
+
+                        </div>
+
+
+                        <div>
+
+                            <span id="cardShooting">99</span>
+
+                        </div>
+
+
+                        <div>
+
+                            <span id="cardPassing">99</span>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- RIGHT COLUMN -->
+
+                    <div class="stats-column">
+
+
+                        <div>
+
+                            <span id="cardDribbling">99</span>
+
+                        </div>
+
+
+                        <div>
+
+                            <span id="cardDefense">99</span>
+
+                        </div>
+
+
+                        <div>
+
+                            <span id="cardPhysical">99</span>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- HTML2CANVAS -->
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
