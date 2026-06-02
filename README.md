@@ -67,19 +67,6 @@ Generate your own football cards instantly with custom stats and images.
 
 ---
 
-# 📂 Project Structure
-
-fifa-card-generator/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-├── assets/
-│   ├── gold.png
-│   ├── icon.png
-│   └── ucl.png
-
 ---
 
 # 🔥 Future Improvements
@@ -118,3 +105,16 @@ This project is deployed using:
 # 📜 License
 
 This project is licensed under the MIT License.
+
+# 📂 Project Structure
+```plaintext
+fifa-card-generator/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── assets/
+│   ├── gold.png
+│   ├── icon.png
+│   └── ucl.png
