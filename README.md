@@ -9,6 +9,14 @@ Users can create custom football cards with:
 - Stats
 - Uploaded player image
 - Multiple card designs
+- 
+---
+
+# 🌍 Live Website
+
+🔗 https://fifa-card-generator-gamma.vercel.app/
+
+---
 
 ## 🎨 Card Types
 
