@@ -101,6 +101,11 @@ This project is deployed using:
 - Vercel
 
 ---
+---
+
+# 🤖 AI Assistance Declaration
+
+I referred to AI-generated suggestions for implementing the PNG download functionality in this project and then integrated it into the project manually.
 
 # 📜 License
 
