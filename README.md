@@ -39,11 +39,11 @@ I Soon work to get more cards :)
 - GitHub
 - Vercel
 
-## About This Project
+## About This Project and AI declaration 
 
 I made this project as a student who loves playing fifa,i always wonder how great it would be if i had my own fifa card so i decided to create this.
 
-One difficult part for me was making the PNG download feature. I referred to AI suggestions for that part and then added it into my own project.
+One difficult part for me was making the PNG download feature. I Used AI suggestions for that part and then added it into my own project.
 
 And some of the Most irritating parts were styling, positioning, debugging, and card adjustments were done through trial and error.
 
