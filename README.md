@@ -26,8 +26,6 @@ Currently i have added:
 <img width="624" height="832" alt="Image" src="https://github.com/user-attachments/assets/e964a842-36a3-41aa-8fff-638e2c523eb4" />
 
 
-Generate your own FIFA-style football cards instantly.
-
 I Soon work to get more cards :)
 
 ## Built With
@@ -45,7 +43,7 @@ I made this project as a student who loves playing fifa,i always wonder how grea
 
 One difficult part for me was making the PNG download feature. I Used AI suggestions for that part and then added it into my own project.
 
-And some of the Most irritating parts were styling, positioning, debugging, and card adjustments were done through trial and error.
+And some of the Most irritating ): parts were styling, positioning, debugging, and card adjustments were done through trial and error.
 
 
 ## Developer
