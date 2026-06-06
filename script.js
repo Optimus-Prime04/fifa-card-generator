@@ -1,7 +1,4 @@
 function generateCard() {
-
-    // PLAYER INFO
-
     let playerName =
         document.getElementById("playerName").value;
 
@@ -10,10 +7,6 @@ function generateCard() {
 
     let playerPosition =
         document.getElementById("playerPosition").value;
-
-
-
-    // PLAYER STATS
 
     let pace =
         document.getElementById("pace").value;
@@ -33,10 +26,6 @@ function generateCard() {
     let physical =
         document.getElementById("physical").value;
 
-
-
-    // UPDATE CARD TEXT
-
     document.getElementById("cardName").innerText =
         playerName;
 
@@ -46,9 +35,6 @@ function generateCard() {
     document.getElementById("cardPosition").innerText =
         playerPosition;
 
-
-
-    // UPDATE CARD STATS
 
     document.getElementById("cardPace").innerText =
         pace;
@@ -68,19 +54,12 @@ function generateCard() {
     document.getElementById("cardPhysical").innerText =
         physical;
 
-
-
-    // CARD TYPE
-
     let cardType =
         document.getElementById("cardType").value;
 
     let card =
         document.getElementById("card");
 
-
-
-    // GOLD CARD
 
     if(cardType === "gold") {
 
@@ -93,7 +72,6 @@ function generateCard() {
 
 
 
-    // ICON CARD
 
     if(cardType === "icon") {
 
@@ -106,7 +84,6 @@ function generateCard() {
 
 
 
-    // UCL CARD
 
     if(cardType === "ucl") {
 
@@ -117,9 +94,6 @@ function generateCard() {
             "card ucl-card";
     }
 
-
-
-    // PLAYER IMAGE
 
     let imageInput =
         document.getElementById("imageInput");
@@ -150,9 +124,6 @@ function generateCard() {
 }
 
 
-
-
-// DOWNLOAD CARD
 
 function downloadCard() {
 
