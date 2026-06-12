@@ -40,8 +40,9 @@ I Soon work to get more cards :)
 ## About This Project and AI declaration 
 
 I made this project as a student who loves playing fifa,i always wonder how great it would be if i had my own fifa card so i decided to create this.
+i have also submitted this project on horizon, but when I submitted it  was only one type of card. Now I have updated it to 3 and also improved the UI .
 
-One difficult part for me was making the PNG download feature,i have submitted this project also on horizon but when submitted it was only one type of card but now i have updated it to 3 also improved the UI . I Used AI suggestions for that part and then added it into my own project.
+One difficult part for me was making the PNG download feature,I Used AI suggestions for that part and then added it into my own project.
 
 And some of the Most irritating ): parts were styling, positioning, debugging, and card adjustments were done through trial and error.
 
